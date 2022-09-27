@@ -5,7 +5,6 @@ import { Container } from "./layout";
 function Online() {
   return (
     <>
-      <div className="mt-24">
         <Container>
           <Online1>
           <div className="">
@@ -87,7 +86,6 @@ function Online() {
         </div>
           </Online1>
         </Container>
-      </div>
     </>
   );
 }
@@ -95,7 +93,6 @@ function Online() {
 export default Online;
 
 const Online1 = styled.div`
-  margin-top: 10rem;
   .img2 {
     border-radius: 0px 45px 0px 45px;
   }
